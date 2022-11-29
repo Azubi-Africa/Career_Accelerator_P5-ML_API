@@ -1,0 +1,3 @@
+pytest
+sckit-learn
+fastapi[all]
