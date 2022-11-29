@@ -12,6 +12,7 @@ This is the last project of the program, congratulations for all the work done u
 In this project, we aim to help you to discover how to create an API that might be requested to interact with a ML model. This is an interesting solution when you want to keep your model architecture secret or to make your model available to users already having an app. By creating an API, and deployint it, your model can so that receive request using the internet protocol as presented by the illustration below.
 
 ![API illustration](https://lh3.googleusercontent.com/-qVJ4ZsbjsmH6CnYbojsAR4ImyHV8yxsFVinunH-pX7VCapGvufcXiPak6YVKIrj9ZdiCHwK5UFtQW8yuU5t83pz6fbqN1F2p74OWuT5dObCPnTBuCYr_P1mUg8arbP0WuEt7j_A)
+
 **Source** : *The benefits of Machine Learning APIs - UbiOps*
 
 
