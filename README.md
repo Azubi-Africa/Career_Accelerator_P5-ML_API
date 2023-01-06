@@ -124,6 +124,7 @@ Here are some ressources you would read to have a good understanding of FastAPI 
 - [Tutorial - User Guide](https://fastapi.tiangolo.com/tutorial/)
 - [Video - Building a Machine Learning API in 15 Minutes ](https://youtu.be/C82lT9cWQiA)
 - [Video - Deploy ML models with FastAPI, Docker, and Heroku ](https://www.youtube.com/watch?v=h5wLuVDr0oc)
+- [Http status codes](https://www.linkedin.com/feed/update/urn:li:activity:7017027658400063488?utm_source=share&utm_medium=member_desktop)
 
 
 
