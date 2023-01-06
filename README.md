@@ -60,7 +60,7 @@ API :
 
 -   **Good:** Have an API that launches, makes predictions and returns results.
 
--   **Fair:** Have an API that launches but having bugs regarding inputs processing or making predictions.
+-   **Fair:** Have an API that launches but having bugs regarding inputs handeling or returning predictions.
 
 ## Setup
 
@@ -100,9 +100,9 @@ The both long command-lines have a same structure, they pipe multiple commands u
           uvicorn src.salary.api:app --reload 
 
 
-  - Go to your browser at the following address :
+  - Go to your browser at the following address, to explore the api's documentation :
         
-      http://127.0.0.1:8000/
+      http://127.0.0.1:8000/docs
 
 
 <!-- ## Screenshots
