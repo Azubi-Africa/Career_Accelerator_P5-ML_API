@@ -93,16 +93,16 @@ The both long command-lines have a same structure, they pipe multiple commands u
     
     - Demo
 
-          python XX/basic_demo/app.py
+          uvicorn src.demo_01.api:app --reload 
 
     - Salary prediction
 
-          python XX/salary/app.py
+          uvicorn src.salary.api:app --reload 
 
 
   - Go to your browser at the following address :
         
-      http://127.0.0.1:XXXX/
+      http://127.0.0.1:8000/
 
 
 <!-- ## Screenshots
