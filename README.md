@@ -9,7 +9,7 @@ Develop a Machine Learning API (Application Programming Interface) using FastAPI
 
 This is the last project of the program, congratulations for all the work done until now.
 
-In this project, we aim to help you to discover how to create an API that might be requested to interact with a ML model. This is an interesting solution when you want to keep your model architecture secret or to make your model available to users already having an app. By creating an API, and deployint it, your model can so that receive request using the internet protocol as presented by the illustration below.
+In this project, we aim to help you to discover how to create an API that might be requested to interact with a ML model. This is an interesting solution when you want to keep your model architecture secret or to make your model available to users already having an API. By creating an API, and deploying it, your model can so that receive request using the internet protocol as presented by the illustration below.
 
 ![API illustration](https://lh3.googleusercontent.com/-qVJ4ZsbjsmH6CnYbojsAR4ImyHV8yxsFVinunH-pX7VCapGvufcXiPak6YVKIrj9ZdiCHwK5UFtQW8yuU5t83pz6fbqN1F2p74OWuT5dObCPnTBuCYr_P1mUg8arbP0WuEt7j_A)
 
@@ -22,16 +22,16 @@ In this project, we aim to help you to discover how to create an API that might 
 [FastAPI](https://fastapi.tiangolo.com/) # 
 -->
 
-You will have a minimal interface demo with [Gradio](https://gradio.app/) & [Streamlit](https://streamlit.io/), this will just serve you to make sure that everything works correctly. Then, you will have to make your own interfaces, those allowing you to interact with a Machine Learning model, that is to say:
-- Pass values through the interface;
-- Recover these values in backend;
+You will have a minimal API demo with [FastAPI](https://fastapi.tiangolo.com/), this will just serve you to make sure that everything works correctly. Then, you will have to make your own API, this allowing you to interact with a Machine Learning model, that is to say:
+- Pass data through a request;
+- Get the data in using the API;
 - Apply the necessary processing;
-- Submit the previously processed values to the ML model to make the predictions;
-- Process the predictions obtained and display them on the interface.
+- Submit the processed data to the ML model to make the predictions;
+- Process the predictions obtained and return them as the API's response ot the input request.
 
 ## Instructions
 
-Your task is to understand the frameworks and build an API integrating a ML model using FastAPI.
+Your task is to build an API integrating a ML model using FastAPI.
 Clone this repository to use it as a template, do not forget to change the readme at the end of the project.
 Your work should follow these next steps.
 
@@ -48,19 +48,19 @@ suitable blogging site.
 
 Machine Learning :
 
--   **Excellent:** Have an that works correctly with a nice and personalized interface.
+-   **Excellent:** Have a pipeline/function that takes inputs and make accurate predictions.
 
--   **Good:** Have an app that launches, makes prediction and shows result.
+-   **Good:** Have a pipeline/function that takes inputs and make predictions.
 
--   **Fair:** Have an app that launches but having bugs regarding prediction or interface.
+-   **Fair:** Have a pipeline/function that takes inputs but faces bugs while doing predictions.
 
 API :
 
--   **Excellent:** Have an that works correctly with a nice and personalized interface.
+-   **Excellent:** Have an API that works correctly, taking inputs multiple inputs and returning all the related predictions.
 
--   **Good:** Have an app that launches, makes prediction and shows result.
+-   **Good:** Have an API that launches, makes predictions and returns results.
 
--   **Fair:** Have an app that launches but having bugs regarding prediction or interface.
+-   **Fair:** Have an API that launches but having bugs regarding inputs processing or making predictions.
 
 ## Setup
 
@@ -89,20 +89,20 @@ The both long command-lines have a same structure, they pipe multiple commands u
 
 - Run the demo apps (being at the repository root):
         
-  Gradio:
+  FastAPI:
     
     - Demo
 
-          python gradio_project/basic_demo/app.py
+          python XX/basic_demo/app.py
 
     - Salary prediction
 
-          python gradio_project/salary/app.py
+          python XX/salary/app.py
 
 
   - Go to your browser at the following address :
         
-      http://127.0.0.1:7860/
+      http://127.0.0.1:XXXX/
 
 
 <!-- ## Screenshots
