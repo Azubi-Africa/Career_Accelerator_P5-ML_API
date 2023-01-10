@@ -35,7 +35,7 @@ Your task is to build an API integrating a ML model using FastAPI.
 Clone this repository to use it as a template, do not forget to change the readme at the end of the project.
 Your work should follow these next steps.
 
-1.  Build a ML model to predict the Titanic Survivals, during 2 first weeks. 
+1.  Build a ML model to predict the [Titanic Survivors](https://www.kaggle.com/c/titanic), during 2 first weeks. 
 
 2.  Build an API using Fast API, during the remaining weeks, to embed the Titanic classification model built.
 
@@ -95,9 +95,9 @@ The both long command-lines have a same structure, they pipe multiple commands u
 
           uvicorn src.demo_01.api:app --reload 
 
-    - Salary prediction
+    <!-- - Salary prediction
 
-          uvicorn src.salary.api:app --reload 
+          uvicorn src.salary.api:app --reload  -->
 
 
   - Go to your browser at the following address, to explore the api's documentation :
