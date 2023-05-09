@@ -37,7 +37,7 @@ Your work should follow these next steps.
 
 1.  Build a ML model to predict the [Sepsis](https://www.kaggle.com/datasets/chaunguynnghunh/sepsis?select=README.md), during the 2 first weeks. 
 
-2.  Build an API using Fast API, during the remaining weeks, to embed the Titanic classification model built.
+2.  Build an API using Fast API, during the remaining weeks, to embed the ML model built.
 
 
 Upon completion of your project, you are required to write a blog post
