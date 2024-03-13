@@ -35,7 +35,7 @@ Your task is to build an API integrating a ML model using FastAPI.
 Clone this repository to use it as a template, do not forget to change the readme at the end of the project.
 Your work should follow these next steps.
 
-1.  Build a ML model to predict the [Sepsis](https://www.kaggle.com/datasets/chaunguynnghunh/sepsis?select=README.md), during the 2 first weeks. 
+1.  Build a ML model to predict the [Sepsis](https://www.kaggle.com/datasets/chaunguynnghunh/sepsis?select=README.md)(**Data set here**), during the 2 first weeks. 
 
 2.  Build an API using Fast API, during the remaining weeks, to embed the ML model built.
 
